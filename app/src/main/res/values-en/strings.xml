@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="b_bi">Binary</string>
+    <string name="bo_ca">Delete</string>
+    <string name="b_coma">.</string>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="b_bi">Binario</string>
+    <string name="b_de" translatable="false">Decimal</string>
+    <string name="b_hex" translatable="false">Hexadecimal</string>
+    <string name="bo_ca">Borrar</string>
+    <string name="text_hint" translatable="false">0</string>
+    <string name="b_multi" translatable="false">X</string>
+    <string name="b_div" translatable="false">/</string>
+    <string name="b_1" translatable="false">1</string>
+    <string name="b_2" translatable="false">2</string>
+    <string name="b_3" translatable="false">3</string>
+    <string name="b_4" translatable="false">4</string>
+    <string name="b_5" translatable="false">5</string>
+    <string name="b_6" translatable="false">6</string>
+    <string name="b_7" translatable="false">7</string>
+    <string name="b_8" translatable="false">8</string>
+    <string name="b_9" translatable="false">9</string>
+    <string name="b_0" translatable="false">0</string>
+    <string name="b_igual" translatable="false">=</string>
+    <string name="b_coma">,</string>
+    <string name="b_suma" translatable="false">+</string>
+    <string name="b_resta" translatable="false">-</string>
+    <string name="b_limpia" translatable="false">C</string>
+    <string name="hexA" translatable="false">A</string>
+    <string name="hexB" translatable="false">B</string>
+    <string name="hexD" translatable="false">D</string>
+    <string name="hexE" translatable="false">E</string>
+    <string name="hexF" translatable="false">F</string>
+
+</resources>
