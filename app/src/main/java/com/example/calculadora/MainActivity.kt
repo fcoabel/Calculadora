@@ -103,10 +103,10 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
-            sumar.setOnClickListener { operacion(com.example.calculadora.MainActivity.Companion.SUMA) }
-            restar.setOnClickListener { operacion(com.example.calculadora.MainActivity.Companion.RESTA) }
-            multiplicar.setOnClickListener { operacion(com.example.calculadora.MainActivity.Companion.MULTI) }
-            dividir.setOnClickListener { operacion(com.example.calculadora.MainActivity.Companion.DIVI) }
+        sumar.setOnClickListener { operacion(com.example.calculadora.MainActivity.Companion.SUMA) }
+        restar.setOnClickListener { operacion(com.example.calculadora.MainActivity.Companion.RESTA) }
+        multiplicar.setOnClickListener { operacion(com.example.calculadora.MainActivity.Companion.MULTI) }
+        dividir.setOnClickListener { operacion(com.example.calculadora.MainActivity.Companion.DIVI) }
 
             b_clean.setOnClickListener {
                 if (texto.text.isNotEmpty()){
