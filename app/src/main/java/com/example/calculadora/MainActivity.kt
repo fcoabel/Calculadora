@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     private var operacion: Int = 0
     private var meBoHe: Boolean = false
     private var meBoBi: Boolean = false
+    private var punto: Boolean = true
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,7 +31,12 @@ class MainActivity : AppCompatActivity() {
             b8.setOnClickListener { pulsarnumero("8") }
             b9.setOnClickListener { pulsarnumero("9") }
             bcero.setOnClickListener { pulsarnumero("0") }
-            bPunto.setOnClickListener { pulsarnumero(".") }
+            bPunto.setOnClickListener {
+                if(punto){
+                    pulsarnumero(".")
+                    punto = false
+                }
+            }
 
         if (resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
             bHexA.setOnClickListener { pulsarnumero("A") }
@@ -134,11 +140,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 operacion = NADA
             }
-
-
-
     }
-
 
     private fun pulsarnumero(valor: String){
         if (operacion == NADA){
@@ -175,6 +177,7 @@ class MainActivity : AppCompatActivity() {
     fun operacion(op: Int){
         if (op != 0){
             operacion = op
+            punto = true
         }
         texto.text = ""
     }
